@@ -1,0 +1,34 @@
+Here is the source code of the Python Program to read a number n and print an identity matrix of the desired size.
+The program output is also shown below.
+
+n=int(input("Enter a number: "))
+for i in range(0,n):
+    for j in range(0,n):
+        if(i==j):
+            print("1",sep=" ",end=" ")
+        else:
+            print("0",sep=" ",end=" ")
+    print()
+
+Program Explanation
+1.	User must first enter the value and store it in a variable n.
+2.	The outer for loop enables j to range between 1 and n-1 (as n is not included) while the inner for loop also enables i to range between 1 and n-1.
+3.	For each iteration, the value of 1 is printed if i is equal to j and value of 0 is printed otherwise.
+4.	The sep and end parameters of the print function help in formatting and print() allows values to printed in a new line for each iteration of the outer for loop.
+
+Runtime Test Cases
+ 
+Case 1:
+Enter a number: 4
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+ 
+Case 2:
+Enter a number: 5
+1 0 0 0 0 
+0 1 0 0 0 
+0 0 1 0 0 
+0 0 0 1 0 
+0 0 0 0 1

@@ -1,0 +1,18 @@
+This is a simple JavaScript example program for fibonacci sequence.
+
+<html>
+<body>
+<script type="text/javascript">
+var a=0,b=1,c;
+document.write("Fibonacci");
+while (b<=10)
+{
+document.write(c);
+document.write("<br/>");
+c=a+b;
+a=b;
+b=c;
+}
+</script>
+</body>
+</html>

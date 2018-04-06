@@ -1,0 +1,48 @@
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2018-03-09 15:29:32
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2018-03-09 15:29:32 ::1 GET /default.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 4325
+2018-03-09 15:29:32 ::1 GET /css/bootstrap.min.css - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 69
+2018-03-09 15:29:32 ::1 GET /css/style.css - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 77
+2018-03-09 15:29:32 ::1 GET /css/font-awesome.css - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 94
+2018-03-09 15:29:32 ::1 GET /images/line.gif - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 120
+2018-03-09 15:29:32 ::1 GET /images/logo.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 130
+2018-03-09 15:29:32 ::1 GET /images/world.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 165
+2018-03-09 15:29:47 ::1 GET /images/ft_bg.gif - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 34
+2018-03-09 15:29:47 ::1 GET /images/top2.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 84
+2018-03-09 15:29:47 ::1 GET /images/menu.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 81
+2018-03-09 15:29:47 ::1 GET /images/part_bg.gif - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 77
+2018-03-09 15:29:47 ::1 GET /images/top1.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 304 0 0 86
+2018-03-09 15:29:53 ::1 GET /Regist.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 200 0 0 234
+2018-03-09 15:30:26 ::1 POST /Regist.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Regist.aspx 200 0 0 183
+2018-03-09 15:30:50 ::1 GET /Feedback.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Regist.aspx 200 0 0 1447
+2018-03-09 15:30:54 ::1 GET /default.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Feedback.aspx 200 0 0 71
+2018-03-09 15:31:17 ::1 GET /Regist.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/default.aspx 200 0 0 88
+2018-03-09 15:31:22 ::1 GET /Institutions.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Regist.aspx 200 0 0 2680
+2018-03-09 15:31:22 ::1 GET /school/sm1.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Institutions.aspx 304 0 0 71
+2018-03-09 15:31:22 ::1 GET /images/view.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Institutions.aspx 304 0 0 65
+2018-03-09 15:31:22 ::1 GET /school/502.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Institutions.aspx 304 0 0 68
+2018-03-09 15:31:22 ::1 GET /school/sm3.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Institutions.aspx 304 0 0 83
+2018-03-09 15:31:22 ::1 GET /school/555.jpg - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Institutions.aspx 304 0 0 83
+2018-03-09 15:31:31 ::1 GET /Feedback.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Institutions.aspx 200 0 0 77
+2018-03-09 15:31:38 ::1 GET /Institutions.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko http://localhost:6665/Feedback.aspx 200 0 0 140
+2018-03-09 15:35:01 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 5256
+2018-03-09 15:37:48 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 8868
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2018-03-09 16:11:02
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2018-03-09 16:11:02 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 4108
+2018-03-09 16:19:26 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 4263
+#Software: Microsoft Internet Information Services 8.0
+#Version: 1.0
+#Date: 2018-03-09 16:37:10
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2018-03-09 16:37:10 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 4255
+2018-03-09 16:41:09 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 1721
+2018-03-09 16:49:01 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 4551
+2018-03-09 16:50:47 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 1722
+2018-03-09 16:52:41 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 1663
+2018-03-09 16:53:38 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 1717
+2018-03-09 16:55:04 ::1 GET /Registration.aspx - 6665 - ::1 Mozilla/5.0+(Windows+NT+10.0;+WOW64;+Trident/7.0;+rv:11.0)+like+Gecko - 200 0 0 1889

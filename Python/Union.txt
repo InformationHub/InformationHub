@@ -1,0 +1,41 @@
+Here is source code of the Python Program to find the union of two lists. 
+The program output is also shown below.
+
+a=[]
+n= int(input("Enter the number of elements in list:"))
+for x in range(0,n):
+    element=int(input("Enter element" + str(x+1) + ":"))
+    a.append(element)
+b=[sum(a[0:x+1]) for x in range(0,len(a))]
+print("The original list is: ",a)
+print("The new list is: ",b)
+
+Program Explanation
+1. User must enter the number of elements in the list and store it in a variable.
+2. User must enter the values to the same number of elements into the list.
+3. The append function obtains each element from the user and adds the same to the end of the list as many times as the number of elements taken.
+4. The same of 2 and 3 is done for the second list also.
+5. The union function accepts two lists and returns the list which is the union of the two lists, i.e, all the values from list 1 and 2 without redundancy.
+6. The set function in the union function accepts a list and returns the list after elimination of redundant values.
+7. The lists are passed to the union function and the returned list is printed.
+
+Runtime Test Cases
+ 
+Case 1:
+Enter the number of elements in list:5
+Enter element1:10
+Enter element2:10
+Enter element3:20
+Enter element4:20
+Enter element5:20
+Non-duplicate items:
+[10, 20]
+ 
+Case 2:
+Enter the number of elements in list:4
+Enter element1:23
+Enter element2:56
+Enter element3:67
+Enter element4:10
+('The original list is: ', [23, 56, 67, 10])
+('The new list is: ', [23, 79, 146, 156])

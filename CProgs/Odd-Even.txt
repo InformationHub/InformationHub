@@ -1,0 +1,18 @@
+Here is source code of the C program to check whether a given integer is odd or even.
+The C program is successfully compiled and run on a Linux system. 
+
+
+#include <stdio.h>
+ 
+void main()
+{
+    int ival, remainder;
+ 
+    printf("Enter an integer : ");
+    scanf("%d", &ival);
+    remainder = ival % 2;
+    if (remainder == 0)
+        printf("%d is an even integer\n", ival);
+    else
+        printf("%d is an odd integer\n", ival);
+}
